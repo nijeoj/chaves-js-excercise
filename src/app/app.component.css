@@ -1,0 +1,18 @@
+.Card {
+    width: 50px;
+    height: 70px;
+    padding: 2rem;
+    border: 1px solid #efefef;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display:inline-block;
+    margin-right:15px;
+}
+
+.inactive{
+  background-color: red;
+}
+
+.active{
+  background-color: green;
+}

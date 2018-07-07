@@ -1,0 +1,18 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>Card Application</h1>
+
+<div class="Card" [class.active]="activecard==='card1true'" [class.inactive]="activecard==='card1false'" (click)="setCardStatus('card1')">
+  <span *ngIf="activecard==='card1true'" style="color:white;">1</span>
+</div>
+
+<div class="Card" [class.active]="activecard2==='card2true'" [class.inactive]="activecard2==='card2false'" (click)="setCardStatus('card2')">
+  <span *ngIf="activecard2==='card2true'" style="color:white;">2</span>
+</div>
+
+<div class="Card" [class.active]="activecard3==='card3true'" [class.inactive]="activecard3==='card3false'" (click)="setCardStatus('card3')">
+  <span *ngIf="activecard3==='card3true'" style="color:white;">3</span>
+</div>
+
+<div class="Card" [class.active]="activecard4==='card4true'" [class.inactive]="activecard4==='card4false'" (click)="setCardStatus('card4')">
+  <span *ngIf="activecard4==='card4true'" style="color:white;">4</span>
+</div>
